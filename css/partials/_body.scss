@@ -55,4 +55,17 @@ body {
         background-color: #AFAFB4;
     }
 
+    .tarjetita {
+        transform: scale(1.0)translateY(-10px);
+    }
+
+    .card {
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        transition: all;
+    }
+
+    .card:hover {
+        transform: translate(-10px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
 }
